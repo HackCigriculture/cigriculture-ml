@@ -55,13 +55,13 @@ def _check(p, d, x, y):
 def check(x, y):
     res = _check(polygons78, 78, x, y)
     if len(res) > 0:
-        return 0.078
+        return 0.2  # 0.078
     res = _check(polygons100, 100, x, y)
     if len(res) > 0:
-        return 0.1
+        return 0.5  # 0.1
     res = _check(polygons130, 130, x, y)
     if len(res) > 0:
-        return 0.13
+        return 0.8  # 0.13
     return 1.0
 
 # init()
