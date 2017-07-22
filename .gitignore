@@ -1,2 +1,5 @@
 venv/*
 .python-version
+model/*
+!model/.gitkeep
+__pycache__
