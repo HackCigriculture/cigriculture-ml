@@ -17,7 +17,7 @@ def det(x1, y1, x2, y2):
 
 
 def dett(x0, y0, x1, y1, x2, y2):
-    z = det(x1-x0,y1-y0,x2-x0,y2-y0)
+    z = det(x1-x0, y1-y0, x2-x0, y2-y0)
     return -1 if z < 0 else z > 0
 '''
 inline DB ang(cPo p0,cPo p1){return acos(dot(p0,p1)/p0.len()/p1.len());}
